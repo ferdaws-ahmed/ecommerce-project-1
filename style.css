@@ -42,6 +42,9 @@ img{
 /* reset and common code ends here */
 
 /* nav style start here */
+         #menu__icon{
+            display: none;
+         }
            nav{
                 font-size: 1.8rem;
 
@@ -124,10 +127,22 @@ img{
                     gap: 1rem;
                     padding: 1rem 0;
                 }
+                #menu__icon{
+                    display: block;
+                    text-align: center;
+                    margin: 1rem 0;
+                    cursor: pointer;
+                }
+                .hidden{
+                    display: none;
+                }
             
            }
            @media (max-width:768px) {
-            
+            .footer__btn{
+                padding: 0.3rem;
+                margin: 1px;
+             }
            }
            @media  (max-width:600px) {
              .footer__btn{
